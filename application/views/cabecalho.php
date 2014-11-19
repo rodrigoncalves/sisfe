@@ -22,6 +22,7 @@
 		<li><?=anchor("setores", "Setores")?></li>
 		<li><?=anchor("funcoes", "Funções")?></li>
 		<li><?=anchor("departamentos", "Departamentos")?></li>
+		<li><?=anchor("disciplinas", "Disciplinas")?></li>
 		<li><?=anchor("conta", "Conta")?></li>
 		<li><?=anchor("logout", "Sair")?></li>
 	<?php endif ?>

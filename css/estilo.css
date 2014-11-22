@@ -43,3 +43,11 @@ h1.bemvindo {
 	background-color: #eee;
 	opacity: 1;
 }
+
+.form-select {
+	width: 30%;
+}
+
+legend {
+	margin-bottom: -10px;
+}

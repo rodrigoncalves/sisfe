@@ -22,7 +22,6 @@ class Setores_model extends CI_Model {
 
 	public function remove($id) {
 		$res = $this->db->delete("setores", array('id' => $id));
-		var_dump($this->db->last_query());
 		return $res;
 	}
 }

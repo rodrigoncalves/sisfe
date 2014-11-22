@@ -55,6 +55,8 @@ $route['funcoes/(:num)'] = 'funcao/formulario_altera/$1';
 $route['departamentos'] = 'departamento/formulario';
 $route['departamentos/(:num)'] = 'departamento/formulario_altera/$1';
 $route['courses'] = 'course/formToRegisterNewCourse';
+$route['disciplinas'] = 'disciplina/formulario';
+$route['disciplinas/(:num)'] = 'disciplina/formulario_altera/$1';
 
 
 /* End of file routes.php */
